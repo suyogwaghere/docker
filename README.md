@@ -71,7 +71,9 @@ Node.js (Needs windows 8.1+ version) Download Link : https://bit.ly/3ailfen
   docker images
 
   You will see the docker images with REPOSITORY, TAG, IMAGE ID, CREATED (Time), SIZE.
-
+  
+  enter this command to run the code
+  docker run wt
 
 ** Some Basic Questions That Can Be Asked:
  1. What is docker?
