@@ -49,23 +49,23 @@ Node.js (Needs windows 8.1+ version) Download Link : https://bit.ly/3ailfen
  -Steps to Implement the Assignment:
 
   Step-1: Create a folder (Note: Folder name should be in lowercase).  
-  Let the folder name be: docker_demo
+  Let the folder name be: docker
 
-  Step-2: Create any file with any extension( such as .js, .txt, .py, etc....) in the same above folder(Here, docker_demo) and write some content in the file. 
+  Step-2: Create any file with any extension( such as .js, .txt, .py, etc....) in the same above folder(Here, docker) and write some content in the file. 
   Let the file name be: app.js
 
-  The file contains the following code:
-  console.log("Hi suyog");
+  The file contains the following code:<br>
+  console.log("Hi suyog");<br>
   console.log("docker");
   
 
-  Step-3: Create file in the same folder with file name as- Dockerfile and press enter key. (Note: Don't add any file extension after the file name)
+  Step-3: Create file in the same folder with file name as- Dockerfile and press enter key. (Note: Don't add any file extension after the file name)<br>
   File: Dockerfile 
    
-  Step-4: Write following code in Dockerfile (Created in Step-3) and save it.:
-  FROM node: alpine
-  COPY . /docker_demo
-  CMD node /docker_demo/app.js
+  Step-4: Write following code in Dockerfile (Created in Step-3) and save it.:<br>
+  FROM node:alpine
+  COPY . /docker
+  CMD node /docker/app.js
 
   Step-5: Open terminal in VS Code and type the following command:
   docker --version
