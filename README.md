@@ -18,7 +18,23 @@ Node.js (Needs windows 8.1+ version) Download Link : https://bit.ly/3ailfen
 
 ** Steps to implement this assignment:
  - Basic Requirements:
-
+ 
+ 1)download docker desktop:-https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module
+2)installation:-https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+3)open cmd:
+		docker --version
+		docker images 		
+4)create docker folder
+		create app.js 
+			console.log("msg");
+		create docker file
+			FROM node:alpine
+			COPY . /docker
+			CMD node docker/app.js
+5)run command 
+		docker build -t imagename .
+		docker run imagename
+ 
   1. Install Docker for Desktop/ Docker Toolbox as per your system support from below link. 
     Docker Desktop (For Windows 10+ 64-bit) Download Link : https://dockr.ly/38BQNLT
     Docker Toolbox (For Windows 7 or earlier 32-bit) Download Link : https://bit.ly/3lwZxpc
