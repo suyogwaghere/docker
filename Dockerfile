@@ -1,3 +1,3 @@
 FROM node:alpine
-COPY . /demo
-CMD node /demo/app.js
+COPY . /docker
+CMD node /docker/app.js
