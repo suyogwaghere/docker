@@ -98,3 +98,12 @@ Node.js (Needs windows 8.1+ version) Download Link : https://bit.ly/3ailfen
  4. What do you mean by docker images?
  5. Which commands have you used to implement this assignment? 
  6. Explain the steps to create docker images.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3S99GWDYCR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3S99GWDYCR');
+</script>
